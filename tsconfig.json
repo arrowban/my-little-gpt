@@ -1,0 +1,3 @@
+{
+	"extends": "@my-little-gpt/typescript-config/base.json"
+}

@@ -1,0 +1,10 @@
+{
+	"name": "@my-little-gpt/llama-cpp",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"build": "./setup.sh",
+		"dev": "./start.sh",
+		"start": "./start.sh"
+	}
+}

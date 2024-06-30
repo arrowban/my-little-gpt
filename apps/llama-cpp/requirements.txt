@@ -1,0 +1,11 @@
+pip
+pytest
+cmake
+scikit-build
+setuptools
+fastapi
+uvicorn
+sse-starlette
+pydantic-settings
+starlette-context
+huggingface-hub

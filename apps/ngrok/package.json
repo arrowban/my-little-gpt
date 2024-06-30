@@ -1,0 +1,9 @@
+{
+	"name": "@my-little-gpt/ngrok",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"ngrok:web": "docker compose up ngrok-web",
+		"ngrok:llama-cpp": "docker compose up ngrok-llama-cpp"
+	}
+}

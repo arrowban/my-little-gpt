@@ -1,0 +1,9 @@
+{
+	"name": "@my-little-gpt/pocketbase",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "docker compose up pocketbase --build",
+		"start": "docker compose up pocketbase"
+	}
+}
