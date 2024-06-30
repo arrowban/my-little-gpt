@@ -1,0 +1,33 @@
+{
+	"$schema": "https://turbo.build/schema.json",
+	"globalDependencies": ["**/.env.*local"],
+	"tasks": {
+		"setup": {
+			"cache": false,
+			"dependsOn": ["^setup"]
+		},
+		"dev": {
+			"cache": false,
+			"persistent": true
+		},
+		"lint": {
+			"dependsOn": ["^lint"]
+		},
+		"check": {
+			"dependsOn": ["^check"]
+		},
+		"build": {
+			"dependsOn": ["^build"],
+			"outputs": ["build/**"]
+		},
+		"start": {
+			"dependsOn": ["^start"]
+		},
+		"ngrok:web": {
+			"dependsOn": ["^ngrok:web"]
+		},
+		"ngrok:llama-cpp": {
+			"dependsOn": ["^ngrok:llama-cpp"]
+		}
+	}
+}

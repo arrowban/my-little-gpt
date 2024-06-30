@@ -1,0 +1,16 @@
+authtoken: MY_AUTH_TOKEN
+version: 2
+tunnels:
+  web:
+    addr: 3000 # For MacOS and Windows: http://host.docker.internal:3000
+    schemes:
+      - https
+    proto: http
+    domain: MY_DOMAIN
+
+  llama-cpp:
+    addr: 8000 # For MacOS and Windows: http://host.docker.internal:8000
+    schemes:
+      - https
+    proto: http
+    domain: MY_DOMAIN

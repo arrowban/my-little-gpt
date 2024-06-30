@@ -1,0 +1,31 @@
+{
+	"name": "my-little-gpt",
+	"private": true,
+	"scripts": {
+		"dev": "turbo dev",
+		"format": "prettier --write .",
+		"lint": "prettier --check . && turbo lint",
+		"check": "turbo check",
+		"build": "turbo build",
+		"build:force": "turbo build --force",
+		"start": "turbo start --filter=@my-little-gpt/llama-cpp --filter=@my-little-gpt/pocketbase --filter=@my-little-gpt/web",
+		"ngrok:web": "turbo start ngrok:web",
+		"ngrok:llama-cpp": "turbo start ngrok:llama-cpp --filter=@my-little-gpt/llama-cpp --filter=@my-little-gpt/ngrok"
+	},
+	"devDependencies": {
+		"@my-little-gpt/eslint-config": "*",
+		"@my-little-gpt/typescript-config": "*",
+		"prettier": "^3.2.5",
+		"prettier-plugin-svelte": "^3.1.2",
+		"prettier-plugin-tailwindcss": "^0.5.11",
+		"turbo": "^2.0.3"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"packageManager": "npm@10.2.5",
+	"workspaces": [
+		"apps/*",
+		"packages/*"
+	]
+}
