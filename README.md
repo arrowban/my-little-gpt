@@ -34,7 +34,7 @@ I used to use [ChatGPT](https://chatgpt.com) through its premium subscription. E
 
 There are some great open-source repos for this, but I was looking for a codebase that is only as complex as I need it to be, with a chat app that has the mobile UX I want. I ultimately decided to make my own end-to-end stack – my own little GPT.
 
-I've open-sourced the codebase and written an installation guide to make it as easy as possible for others who are interested in self-hosting it themselves. With My Little GPT, talk to open-source models locally on your computer for free, or pay just for your usage of hosted model APIs.
+I've open-sourced the codebase and written an installation guide to make it as easy as possible for others who are interested in self-hosting it themselves. I use My Little GPT to talk to open-source models locally on my computer for free, or pay just for my usage of hosted model APIs.
 
 Right now, My Little GPT supports a minimal, straightforward chat experience. Over time, I may continue to add new features to the app.
 
