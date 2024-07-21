@@ -313,13 +313,13 @@
 
 	async function refreshChats() {
 		chatState = 'loading';
-		const getChatsResult = await getChats(1);
+		const getChatsResult = await getChats();
 		if (!getChatsResult.data || getChatsResult.error) {
 			state = 'error';
 			error = `Error: ${getChatsResult.error || 'No data'}`;
 			return;
 		}
-		chats = getChatsResult.data.items.sort((a, b) => b.created.localeCompare(a.created));
+		chats = getChatsResult.data.sort((a, b) => b.created.localeCompare(a.created));
 		chatState = 'done';
 	}
 

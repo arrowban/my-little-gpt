@@ -1,13 +1,9 @@
 import { pb } from '$lib/pocketbase';
 
-/**
- * @param {number} page
- * @param {number} limit
- */
-export async function getChats(page, limit = 50) {
+export async function getChats() {
 	try {
 		/** @type {ChatListResult} */
-		const resultList = await pb.collection('chats').getList(page, limit);
+		const resultList = await pb.collection('chats').getFullList();
 		return { data: resultList };
 	} catch (err) {
 		return { error: /** @type {Error} */ (err).message };

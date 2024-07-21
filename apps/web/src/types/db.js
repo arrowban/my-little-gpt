@@ -4,5 +4,5 @@
  * @typedef {import("pocketbase").RecordAuthResponse<UserRecordModel> } UserAuthRefresh
  * @typedef {RecordModel & Message} MessageRecordModel
  * @typedef {RecordModel & Chat} ChatRecordModel
- * @typedef {import("pocketbase").ListResult<ChatRecordModel>} ChatListResult
+ * @typedef {ChatRecordModel[]} ChatListResult
  */
