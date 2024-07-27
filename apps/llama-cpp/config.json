@@ -1,17 +1,17 @@
 {
 	"models": [
 		{
-			"hf_model_repo_id": "Qwen/Qwen2-7B-Instruct-GGUF",
-			"model": "qwen2-7b-instruct-q4_k_m.gguf",
-			"model_alias": "qwen2-7b-small",
+			"hf_model_repo_id": "lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF",
+			"model": "Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf",
+			"model_alias": "llama-3.1-small",
 			"n_gpu_layers": -1,
 			"offload_kqv": true,
 			"n_ctx": 8000
 		},
 		{
-			"hf_model_repo_id": "Qwen/Qwen2-7B-Instruct-GGUF",
-			"model": "qwen2-7b-instruct-q8_0.gguf",
-			"model_alias": "qwen2-7b",
+			"hf_model_repo_id": "lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF",
+			"model": "Meta-Llama-3.1-8B-Instruct-Q8_0.gguf",
+			"model_alias": "llama-3.1",
 			"n_gpu_layers": -1,
 			"offload_kqv": true,
 			"n_ctx": 8000
@@ -33,17 +33,17 @@
 			"n_ctx": 8000
 		},
 		{
-			"hf_model_repo_id": "MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF",
-			"model": "Meta-Llama-3-8B-Instruct.Q4_K_M.gguf",
-			"model_alias": "llama-3-small",
+			"hf_model_repo_id": "Qwen/Qwen2-7B-Instruct-GGUF",
+			"model": "qwen2-7b-instruct-q4_k_m.gguf",
+			"model_alias": "qwen2-7b-small",
 			"n_gpu_layers": -1,
 			"offload_kqv": true,
 			"n_ctx": 8000
 		},
 		{
-			"hf_model_repo_id": "MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF",
-			"model": "Meta-Llama-3-8B-Instruct.Q8_0.gguf",
-			"model_alias": "llama-3",
+			"hf_model_repo_id": "Qwen/Qwen2-7B-Instruct-GGUF",
+			"model": "qwen2-7b-instruct-q8_0.gguf",
+			"model_alias": "qwen2-7b",
 			"n_gpu_layers": -1,
 			"offload_kqv": true,
 			"n_ctx": 8000
