@@ -71,15 +71,15 @@ It is straightforward to support any provider supported by the [Vercel AI SDK](h
 
 The inference server can use any models compatible with [llama.cpp](https://github.com/ggerganov/llama.cpp), and comes configured with the following models:
 
-- [Qwen2 7B Instruct](https://huggingface.co/Qwen/Qwen2-7B-Instruct-GGUF)
-  - `qwen2-7b-small`: Quantized (`q4_k_m`) to be less than 5GB in size
-  - `qwen2-7b`: Quantized (`q8_0`) to be less than 9GB in size
+- [Meta Llama 3.1 8B Instruct](https://huggingface.co/MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF)
+  - `llama-3.1-small`: Quantized (`q4_k_m`) to be less than 5GB in size
+  - `llama-3.1`: Quantized (`q8_0`) to be less than 9GB in size
 - [Mistral 7B Instruct v0.3](https://huggingface.co/MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF)
   - `mistral-7b-small`: Quantized (`q4_k_m`) to be less than 5GB in size
   - `mistral-7b`: Quantized (`q8_0`) to be less than 8GB in size
-- [Meta Llama 3 8B Instruct](https://huggingface.co/MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF)
-  - `llama-3-small`: Quantized (`q4_k_m`) to be less than 5GB in size
-  - `llama-3`: Quantized (`q8_0`) to be less than 9GB in size
+- [Qwen2 7B Instruct](https://huggingface.co/Qwen/Qwen2-7B-Instruct-GGUF)
+  - `qwen2-7b-small`: Quantized (`q4_k_m`) to be less than 5GB in size
+  - `qwen2-7b`: Quantized (`q8_0`) to be less than 9GB in size
 
 Edit the configuration file at `apps/llama-cpp/config.json` to add other models. Reference the [llama-cpp-python docs](https://llama-cpp-python.readthedocs.io/en/latest/server/#configuration-and-multi-model-support) for more info.
 
